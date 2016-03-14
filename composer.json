@@ -1,0 +1,40 @@
+{
+    "name": "mozgbrasil/magento2-correios-php56",
+    "description": "Integração ao Correios",
+    "version": "0.1.0-beta4",
+    "type": "magento2-module",
+    "keywords": ["mozg", "magento2", "shipping", "entrega", "correios", "transporte"],
+    "homepage": "http://mozg.com.br",
+    "time": "2015-01-06 18:56:57",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Mozg",
+            "email": "ajuda@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+			"role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "ajuda@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/magento2-correios-php56/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/composer",
+        "source": "http://mozg.com.br/forums/view/1"
+    },
+    "require" : {
+        "mozgbrasil/magento2-boxpacker-php56": "*"
+    },
+    "suggest": {
+        "mozgbrasil/magento2-base-php56": "Este módulo é requerido como base aos demais módulos da Mozg"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mozg\\Correios\\": ""
+        }
+    }
+}
