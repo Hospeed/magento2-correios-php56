@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mozg_Correios::mozg_packing" title="Gerenciamento de Caixas|Embalagens" module="Mozg_Correios" sortOrder="29" resource="Mozg_Correios::mozg" parent="Mozg_Base::mozg" action="mozg_base/module/packing" />
+    </menu>
+</config>
